@@ -1,4 +1,5 @@
 ﻿namespace _8_2_While_Foreach;
+using System.Linq;
 class Program
 {
     static void Main(string[] args)
@@ -31,6 +32,9 @@ class Program
         {
             Console.WriteLine(item);
         }
+        
+        int[] arr = {1,2,3,5,};
+        int val=arr.Max;
 
 
 

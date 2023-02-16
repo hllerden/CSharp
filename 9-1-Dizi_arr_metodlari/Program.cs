@@ -40,6 +40,7 @@ class Program
         foreach (var item in sayiDizisi)          
             Console.WriteLine(item);
 
+        Array.ConvertAll()
 
 
     }
