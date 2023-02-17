@@ -55,6 +55,12 @@ class Program
         Console.WriteLine("Degisken substring : "+degisken.Substring(4));
          Console.WriteLine("Degisken substring : "+degisken.Substring(4,6));
 
+        // TRY PARSE  - Short Hand If...Else (Ternary Operator)
+        string s = "123"; //"abc" olarak ta dene
+        object isNumeric = ((int.TryParse(s, out int n)== false)? "Bad String": n);
+        
+        Console.WriteLine("Sonuç"+isNumeric);
+        //Console.WriteLine(((int.TryParse(s, out int n)== false)? "Bad String": n));
 
 
 
