@@ -1,5 +1,7 @@
 ﻿namespace HomeWork_1;
 using System;
+using System.Diagnostics;
+
 
 class Program
 {
@@ -87,5 +89,6 @@ class Program
                 break;
             }
         }
+       
     }
 }
