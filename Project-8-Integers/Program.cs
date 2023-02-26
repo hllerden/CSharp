@@ -13,13 +13,12 @@ class Program
         
         string str =Console.ReadLine();
         int[] input = str.Split(' ').Select(int.Parse).ToArray();
-        for(int i=1;i<input.Count()-1;i++)
+        for(int i=0;i<input.Count()-1;i+=2)
         {
             if (input[i]==input[i+1])
-                System.Console.Write(input[i]*input[i+1]);
+                System.Console.Write(Math.Pow(input[i]*input[i+1],2)+" ");
             else    
-                 System.Console.Write(input[i]
-                 ş.input[i+1]);
+                 System.Console.Write((input[i]+input[i+1])+" ");
         }            
     }
 }
