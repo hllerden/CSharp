@@ -1,0 +1,4 @@
+Transaction Log
+
+Log ID - Log User ID - Title - IP - Date
+0 - 1111 - Succesful Withdraw - 192.168.1.23 - 1.03.2023 19:14:49
