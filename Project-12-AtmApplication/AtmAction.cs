@@ -91,6 +91,7 @@ public class AtmAction
     {
         string filePath = @"C:\Users\by_ha\OneDrive\Projects\Kodlama calismalari\CSharp\Project-12-AtmApplication\" + DateTime.Now.ToString("ddMMyyyy") + ".txt";
         File.WriteAllText(filePath, file);
+        System.Console.WriteLine("Success!!!");
     }
     static public void MakeLog(int userid, string title)
         {
